@@ -1,0 +1,60 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+*, *:before, *:after{
+	box-sizing: border-box;
+}
+
+
+body
+{
+	background-image: url("../images/background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+.wrapper{
+	width:90%;
+	margin: 5% 10%;
+}
+
+@media all and (min-width: 768px){
+.container
+	{	
+		width: 75%;
+		margin: 0 13%;
+	}
+}
+@media all and (max-width: 768px){
+.container
+	{
+		width:75%;
+	}
+}
+.container .row .begin .enter
+{
+background-color: white;
+
+}
+.container .row .begin .enter button{
+	float:right;
+	width:5%;
+}
+.container .row .begin .ad 
+{
+ background-color:aqua;
+}
+.container .row .item .intro span
+{
+	visibility: hidden;
+}
+
+.intro
+{
+	background-image: url("../images/intro.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
